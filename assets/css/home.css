@@ -1,0 +1,29 @@
+@font-face {
+  font-family: title_font;
+  src: url(../fonts/SofadiOne-Regular.ttf) format("truetype");
+}
+
+#title {
+  font-family: title_font !important;
+  
+}
+
+
+.logo11 {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  animation-name: spin;
+  animation-duration: 9.00s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  box-shadow: 0 0 15px #fff;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(45deg);}
+  50% { transform: rotate(0deg);}
+  75% {transform: rotate(-45deg);}
+  100% {transform: rotate(0deg);}
+}

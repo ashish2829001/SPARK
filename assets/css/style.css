@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #ff2323;
 }
 
 #header .logo a span {
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: beige;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #ddc1a4;
 }
 
 .mobile-nav {
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 5.5rem;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
@@ -479,16 +479,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero {
+  /* #hero {
     height: auto;
-  }
+  } */
   #hero h1 {
-    font-size: 28px;
+    font-size: 4rem;
     line-height: 36px;
   }
   #hero h2 {
     font-size: 20px;
-    line-height: 24px;
+    padding-top: 10px;
+    /* line-height: 24px; */
   }
 }
 
@@ -1266,6 +1267,18 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: #ffcd6b;
 }
+.aaaa button {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.aaaa button :hover {
+  background: #ffcd6b;
+}
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1572,4 +1585,16 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media (max-width: 450px)
+{
+  .logo11 {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 60px !important;
+  }
+  #title{
+    font-size: 3rem !important;
+  }
 }
