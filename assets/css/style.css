@@ -1103,7 +1103,7 @@ section {
 }
 
 .team .member .social i {
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .team .member .member-info {
@@ -1134,6 +1134,11 @@ section {
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+.team .member:hover img{
+  transition: ease-in-out 0.3s;
+  filter:blur(3px);
 }
 
 /*--------------------------------------------------------------
