@@ -1589,6 +1589,7 @@ section {
 
 @media (max-width: 450px)
 {
+  
   .logo11 {
     width: 150px !important;
     height: 150px !important;
@@ -1596,5 +1597,8 @@ section {
   }
   #title{
     font-size: 3rem !important;
+  }
+  .container {
+    padding-top: 10px !important;
   }
 }
