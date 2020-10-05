@@ -10,6 +10,7 @@
 
 
 .logo11 {
+  border-radius: 23%;
   width: 200px;
   height: 200px;
   margin: 50px;
@@ -22,8 +23,8 @@
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
-  25% { transform: rotate(45deg);}
+  25% { transform: rotate(22deg);}
   50% { transform: rotate(0deg);}
-  75% {transform: rotate(-45deg);}
+  75% {transform: rotate(-22deg);}
   100% {transform: rotate(0deg);}
 }
