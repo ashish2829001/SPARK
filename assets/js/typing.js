@@ -1,11 +1,11 @@
 
 $(function () {
     $(".typed").typed({
-        strings: ["We are team of talanted digital marketers.", "We are  Web Developers.", "We are Civil Engineers."],
+        strings: ["Aiming to make a difference", "Quality matters because you matter", "Enlightening World, Enlightening Lives","Achieve beyond your imagination"],
         typeSpeed: 10,
         backSpeed: 10,
         backDelay: 1500,
-        showCursor: true,
+        showCursor: false,
         loop: true
     });
 });

@@ -419,11 +419,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 5.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  line-height: 64px;
-  color: #fff;
+  /* line-height: 64px; */
+  color: red;
   font-family: "Poppins", sans-serif;
+}
+.hl{
+  color: red !important;
+  font-size: 2.5rem;
 }
 
 #hero h1 span {
@@ -1601,7 +1605,7 @@ section {
     margin: 60px !important;
   }
   #title{
-    font-size: 3rem !important;
+    /* font-size: 3rem !important; */
   }
   .container {
     padding-top: 10px !important;

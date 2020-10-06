@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: title_font;
   src: url(../fonts/SofadiOne-Regular.ttf) format("truetype");
 }
@@ -6,7 +6,7 @@
 #title {
   font-family: title_font !important;
   
-}
+} */
 
 
 .logo11 {
