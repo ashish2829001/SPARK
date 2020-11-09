@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background: #ffc451;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -539,7 +539,7 @@ section {
 
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+/* .section-header h3 {
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
@@ -575,7 +575,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
   color: #333;
-}
+} */
 
 /* Section with background
 --------------------------------*/
