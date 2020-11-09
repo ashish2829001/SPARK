@@ -30,6 +30,10 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -42,13 +46,13 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo" ><a href="../index.html">S P A R K .</a></h1>
+      <h1 class="logo"><a href="../index.html">S P A R K .</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#hero">Home</a></li>
+          <li class="active"><a href="#hero">SPARK - ITFT</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Applications</a></li>
           <li><a href="#">Motivation</a></li>
@@ -78,11 +82,8 @@
 
     <div class="titles aaa">
       <div>
-        <h1 data-aos="zoom-out" data-aos-delay="300">SPARK - ITFT</h1>
-        <p data-aos="zoom-in" data-aos-delay="600">"Meltdown the icing on traffic uncertainties with our spark- ITFT".
-          Our tool helps you to accurately predict the traffic conditions with the aid of multiple ML time series
-          forecasting techniques having ARIMA, SARIMA at its core and plan the solutions to the possible hurdles in
-          smooth traffic flow.</p>
+        <h1 class="main-head" data-aos="zoom-out" data-aos-delay="300">SPARK - ITFT</h1>
+        <p data-aos="zoom-in" data-aos-delay="600"></p>
       </div>
 
 
@@ -92,10 +93,10 @@
       <div class="box" data-aos="flip-left" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-fire"></i></a>
+          <a href=""><i class="fas fa-truck"></i></a>
         </div>
 
-        <div class="text">
+        <div class="text textas">
           <a href="">
             <h3>Traffic Congestion</h3>
             <p>It is going to be a matter of past soon with our SPARK - ITFT.</p>
@@ -107,10 +108,10 @@
       <div class="box" data-aos="flip-up" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-seedling"></i></a>
+          <a href=""><i class="fas fa-eye"></i></a>
         </div>
 
-        <div class="text">
+        <div class="text textas">
           <a href="">
             <h3>Forecasting Model</h3>
             <p>Feel the future in minutes with our SPARK - ITFT. </p>
@@ -122,10 +123,10 @@
       <div class="box" data-aos="flip-right" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-address-card"></i></a>
+          <a href=""><i class="fas fa-link"></i></a>
         </div>
 
-        <div class="text">
+        <div class="text textas">
           <a href="">
             <h3>Technology</h3>
             <p>SPARK - ITFT uses a variety of popular time series forecastiong techniques.</p>
@@ -139,7 +140,7 @@
 
 
 
-  
+
   <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -154,7 +155,9 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <video width="100%" height="100%" poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU" controls>
+            <video width="100%" height="100%"
+              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
+              controls>
               <source src="assets/videos/video.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -179,12 +182,47 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Features of ITFT</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-left" data-aos-delay="100">
+            <video width="100%" height="100%"
+              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
+              controls>
+              <source src="./assets/videos/Marketing.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content" data-aos="fade-right" data-aos-delay="100">
+            <!-- <h3>About Us.</h3> -->
+            <ul class="ul_row">
+              <li><i class="ri-check-double-line"></i> Fast ,Accurate and Reliable Forecasting.</li>
+              <li><i class="ri-check-double-line"></i> No burden of manual analysis of given data to set up parameters
+                for traffic
+                forecasting models.</li>
+              <li><i class="ri-check-double-line"></i> Not limited to a single forecasting method.</li>
+              <li><i class="ri-check-double-line"></i> Capable of handling large amounts of real time data.</li>
+              <li><i class="ri-check-double-line"></i> No need to do multiple refitting procedures as it was in case of
+                traditional models.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- ======= Motivation Section ======= -->
     <link rel="stylesheet" href="./assets/css/about.css">
     <script src="./assets/js/about.js"></script>
-    <section id="about" class="about">
+    <section id="about motivation" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Motivation</h2>
@@ -193,20 +231,22 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <video width="100%" height="100%" poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU" controls>
+            <video width="100%" height="100%"
+              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
+              controls>
               <source src="assets/videos/impacts.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            
+
             <p class="font-italic">
               As a freshly growing company in the sector, we are dedicated to solve the
               modern problems we face in our daily lives. One of them being the Traffic congestion and
               the various other negative effects of it such as increase in pollutants emission in a
               congested area, wastage of time and money, etc
             </p>
-            
+
             <p>
               So, we have come up with an idea- ​<strong>Intelligent Traffic Forecasting Tool(ITFT)</strong>
               which hopefully solves the problem of traffic congestion by forecasting or estimating the
@@ -216,12 +256,12 @@
             <p>
               We have designed our product in such a way that it can predict the traffic flow
               with minimum errors and may also help you in:
-              <ol>
-                <li>Calculating the capacity of the infrastructure (roads, bridges, etc.)</li>
-                <li>Minimizing the negative environmental impacts of congested traffic.</li>
-                <li>Ensuring smooth, safe and fast flow of traffic.</li>
-              </ol>
-              
+            <ol>
+              <li>Calculating the capacity of the infrastructure (roads, bridges, etc.)</li>
+              <li>Minimizing the negative environmental impacts of congested traffic.</li>
+              <li>Ensuring smooth, safe and fast flow of traffic.</li>
+            </ol>
+
             </p>
           </div>
         </div>
@@ -238,82 +278,93 @@
     <section id="services">
       <div class="container">
 
-        <header class="section-header wow fadeInUp">
+        <header class="section-header wow fadeInUp" data-aos="fade-up" data-aos-delay="50">
           <div class="section-title">
             <h2>Application</h2>
-            <p>Application</p>
+            <p>Utility of ITFT</p>
           </div>
         </header>
         <div class="container we-offer-area text-center bg-gray">
 
           <div class="row our-offer-items less-carousel">
             <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="150">
               <div class="item">
-                <i class="fas fa-pen-fancy"></i>
-                <h4>Application 1</h4>
+                <i class="fas fa-database"></i>
+                <h4>Traffic volume forecasting</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  It is used for accurately forecasting the traffic volume using previous traffic volume trends and
+                  processing it with the help of ML to get the expected traffic situation in future.
                 </p>
               </div>
             </div>
             <!-- End Single Item -->
 
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-              <div class="item">
-                <i class="fas fa-dharmachakra"></i>
-                <h4>Application 2</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-            <!-- End Single Item -->
+
 
             <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="300">
               <div class="item">
                 <i class="fas fa-tasks"></i>
-                <h4>Application 3</h4>
+                <h4>Advanced Signalling Mechanism</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  It may be deployed as an advanced signalling mechanism which combines both ML techniques and live
+                  traffic flow for appropriate movement of traffic in various directions.
                 </p>
               </div>
             </div>
             <!-- End Single Item -->
 
             <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="450">
+              <div class="item">
+                <!-- <i class="fas fa-recycle"></i> -->
+                <i class="fas fa-road"></i>
+                <h4>Avoiding Infrastructure Damage</h4>
+                <p>
+                  It is helpful in analysing the demand for road infrastructure modification forced by the frequent
+                  traffic flow disruption. It may be solved by preparing alternative routes, widening of roads, etc.
+                </p>
+              </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="150">
+              <div class="item">
+                <!-- <i class="fas fa-dharmachakra"></i> -->
+                <i class="fas fa-bus"></i>
+                <h4>Handling Heavy Traffic</h4>
+                <p>
+                  It is helpful in handling heavy traffic flow at any busy intersection as we get to know the possible
+                  times at which traffic flow might slow down due to heavy volume of vehicles.
+                </p>
+              </div>
+            </div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="300">
               <div class="item">
                 <i class="fas fa-tachometer-alt"></i>
-                <h4>Application 4</h4>
+                <h4>Limiting Pollution</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  It may help in reduction of bulk Co2 emission in a congested traffic. Stagnant or very slow traffic
+                  flow may lead to excessive pollution and emission of harmful other gases.
                 </p>
               </div>
             </div>
             <!-- End Single Item -->
 
             <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
+            <div class="col-md-4 col-sm-6 equal-height" data-aos="fade-up" data-aos-delay="450">
               <div class="item">
-                <i class="fas fa-recycle"></i>
-                <h4>Application 5</h4>
+                <!-- <i class="fas fa-headset"></i> -->
+                <i class="fas fa-globe"></i>
+                <h4>Shaping the future</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </p>
-              </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-              <div class="item">
-                <i class="fas fa-headset"></i>
-                <h4>Application 6</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Our Present shapes our Future.Traffic Problems require immediate attention . It's all about making a
+                  choice .Make your choice today and head towards a better world.
                 </p>
               </div>
             </div>
@@ -329,11 +380,109 @@
 
       </div>
     </section>
-   
 
-  </main><!-- End #main -->
+    <!-- Know More Section -->
+    <link rel="stylesheet" href="./assets/css/know_more.css">
+    <section id="about know_more">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Know More</h2>
+          <p>Interested in ITFT ?</p>
+        </div>
+        <div class="post_s">
+          <h3>Marketing Pitch</h3>
+         <p>
+          Our company works in the implementation of advanced technologies such
+          as ML/AI in the field of Civil Engineering. After doing some research we came to know that
+          for 50% of road projects, the difference between actual & forecasted traffic is more than
+          ±20%; for 25% of road projects, the difference is larger than ±40% ( <a href="https://www.researchgate.net/publication/228640448_Inaccuracy_in_Traffic_Forecasts" target="_blank">ResearchGate</a>,2006). The
+          reason behind this scenario is that we’re still stuck with the traditional & old ways of
+          analyzing & forecasting traffic.
+          </p>
 
-  
+          <a href="../marketing.html" class="style-5">Read More</a>
+
+        </div>
+        <!-- <div class="post_s">
+          <h3>Technical Background</h3>
+          <p>
+          </p>
+            <a href="#" class="style-5">Read More</a>
+
+        </div> -->
+      </div>
+    </section>
+
+
+  </main>
+  <!-- End #main -->
+
+
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>S P A R K .</h3>
+              <p>
+                Kharagpur 721302,<br>
+                West Bengal, India<br><br>
+                <strong>Phone:</strong> +91 756 891 6622<br>
+                <strong>Email:</strong> teamspark503@gmail.com<br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html">SPARK</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#motivation">Motivation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Application</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Projects</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SPARK - ITFT</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Project 2</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Projects 3</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Inquiries</h4>
+            <p>For any inquiries, questions or commendations, click here and please fill out the following form</p>
+            <!-- <div class="text-center" style=";"><a href=""><button type="submit">Click here</button></a></div> -->
+            <a href="../#txt" class="aaaa"><button>Click Here</button></a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SPARK</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Web Team (SPARK)
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 

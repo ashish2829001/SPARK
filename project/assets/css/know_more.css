@@ -1,0 +1,93 @@
+/* body { 
+    background:#eee;
+    margin:0;
+    font:15px Open Sans;  
+  } */
+  
+  .post_s {
+    margin:60px auto;
+    border:1px solid #dfdfdf;
+    background:#fff;
+    /* max-width:60%; */
+    padding:40px;
+    line-height:1.5em;
+    text-align:justify;
+    border-radius:8px;
+    box-shadow: 0 0 15px rgb(63, 60, 60);
+  }
+  .post_s h3 {
+    text-align:center;
+    color: #7878a8;
+  }
+  
+  .separate {
+    padding:30px 0;
+    display:block;
+  }
+  .one { background:#fff; }
+  .two { background:#888; }
+  
+  .post_s a {
+    text-decoration:none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .post_s a:hover {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  
+  /* start STYLE 5 */
+  
+  .style-5 {
+    color:#000;
+    font:15px Montserrat;
+    text-transform:uppercase;  
+    padding:10px;
+    font-weight:600;
+    max-width:250px; /* max width of button */
+    display:block;
+    text-align:center;  
+    margin:10px auto;
+    position:relative;
+    overflow:hidden;
+  }
+  .style-5:before, .style-5:after {
+    content:"//////";
+    color:orange;
+    font-size:18px;
+    font-family:consolas;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .style-5:before {
+    margin-right:10px;
+  }
+  .style-5:after {
+    margin-left:10px;
+  }
+  .style-5:hover:before, .style-5:hover:after {
+    letter-spacing:-2px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .style-5:hover {
+    color:orange;
+  }
+  
+  /* end STYLE 5 */
+  
+ 

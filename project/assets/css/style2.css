@@ -23,7 +23,7 @@ ul{
 }
 
 .site-heading h2 span {
-  color: #00a01d;
+  color: rgb(202 140 20);
 }
 
 .site-heading h4 {
@@ -35,7 +35,7 @@ ul{
 }
 
 .site-heading h4::before {
-  background: #00a01d none repeat scroll 0 0;
+  background: rgb(202 140 20) none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -65,13 +65,13 @@ ul{
 }
 
 .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-  background: #00a01d none repeat scroll 0 0;
-  border-color: #00a01d;
+  background: rgb(202 140 20) none repeat scroll 0 0;
+  border-color:rgb(202 140 20);
 }
 
 .we-offer-area .item {
   background: #ffffff none repeat scroll 0 0;
-  border-left: 2px solid #00a01d;
+  border-left: 2px solid rgb(202 140 20);
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
@@ -85,11 +85,12 @@ ul{
 .we-offer-area.text-center .item {
   background: #ffffff none repeat scroll 0 0;
   border: medium none;
+  height: 100%;
   padding: 67px 40px 64px;
 }
 
 .we-offer-area.text-center .item i {
-  background: #00a01d none repeat scroll 0 0;
+  background: rgb(202 140 20) none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -110,7 +111,7 @@ ul{
 }
 
 .we-offer-area.text-center .item i::after {
-  border: 2px solid #00a01d;
+  border: 2px solid rgb(202 140 20);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -161,7 +162,7 @@ ul{
 }
 
 .we-offer-area .item i {
-  color: #00a01d;
+  color: rgb(202 140 20);
   display: inline-block;
   font-size: 60px;
   margin-bottom: 20px;
@@ -187,7 +188,7 @@ ul{
 }
 
 .we-offer-area .item::after {
-  background: #00a01d none repeat scroll 0 0;
+  background: rgb(202 140 20) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
@@ -218,11 +219,11 @@ ul{
 
 .we-offer-area.text-center .item:hover i {
   background-color: #ffffff !important;
-  color: #00a01d !important;
+  color: rgb(202 140 20) !important;
 }
 
 .we-offer-area.text-left .item i {
-  background: #00a01d none repeat scroll 0 0;
+  background: rgb(202 140 20) none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -239,7 +240,7 @@ ul{
 }
 
 .we-offer-area.text-left .item i::after {
-  border: 2px solid #00a01d;
+  border: 2px solid rgb(202 140 20);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

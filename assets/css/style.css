@@ -1364,6 +1364,10 @@ section {
   color: #fff;
 }
 
+
+
+
+
 @media (max-width: 450px)
 {
   
@@ -1379,3 +1383,23 @@ section {
     padding-top: 10px !important;
   }
 }
+
+.xyz{
+  font-size: 1.3rem;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.xyzz{
+  font-size: 1.2rem;
+  color: rgb(97, 81, 51);
+  /* font-weight: bold; */
+}
+.xyy{
+  margin-top: 15px;
+  color: blue;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #ffc451;
+}
+

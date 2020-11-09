@@ -55,8 +55,9 @@ section {
 
 .about .content ul i {
   position: absolute;
-  font-size: 20px;
-  left: 0;
+  font-size: 30px;
+  left: -9px;
+  /* margin-left: 10px; */
   top: -3px;
   color: #ffc451;
 }

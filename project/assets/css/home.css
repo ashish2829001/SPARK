@@ -134,7 +134,7 @@
   }
   
   .box{
-    background: rgba(255,255,255,.5);
+    background: #bdbdbd;
     margin: 1rem;
     padding: .5rem;
     display: flex;
@@ -207,8 +207,11 @@
   
   
   @media (max-width: 850px){
-    body{
+    .alpha{
       height: 100%;
+    }
+    .titles{
+      margin-top: 300px;
     }
     .container-boxes{
       flex-direction: column;
@@ -220,6 +223,24 @@
     .titles h1{
     font-size: 3rem;
     }
+  }
+  @media (max-width: 450px){
+    .alpha{
+      height: 100%;
+    }
+    .titles h1{
+      /* margin-top: 300px; */
+      font-size: 2rem !important;
+    }
+    .container-boxes{
+      flex-direction: column;
+    }
+    .box:hover{
+      background: rgba(255,255,255,.7);
+      transform: none;
+    }
+    .ul_row {
+      font-size: 1.0rem;
   }
   
   
