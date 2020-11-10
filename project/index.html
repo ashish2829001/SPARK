@@ -14,8 +14,7 @@
   <link href="./assets/img/fav2.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
 
@@ -40,6 +39,7 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
 
   <!-- ======= Header ======= -->
   <link rel="stylesheet" href="./assets/css/nav.css">
@@ -54,14 +54,14 @@
         <ul>
           <li class="active"><a href="#hero">SPARK - ITFT</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Applications</a></li>
-          <li><a href="#">Motivation</a></li>
+          <li><a href="#motivation">Motivation</a></li>
+          <li><a href="#services">Applications</a></li>          
           <!-- <li class="drop-down"><a href="./project/index.html">Projects</a> -->
           <!-- <ul>
               <li><a href="./project/index.html">Projects</a></li>
             </ul>
           </li> -->
-          <li><a href="#">Know More</a></li>
+          <li><a href="#know_more">Know More</a></li>
 
         </ul>
       </nav>
@@ -72,8 +72,7 @@
 
 
   <!-- ======= Intro Section ======= -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
 
   <link rel="stylesheet" href="./assets/css/home.css">
@@ -93,11 +92,11 @@
       <div class="box" data-aos="flip-left" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-truck"></i></a>
+          <a href="#"><i class="fas fa-truck"></i></a>
         </div>
 
         <div class="text textas">
-          <a href="">
+          <a href="#">
             <h3>Traffic Congestion</h3>
             <p>It is going to be a matter of past soon with our SPARK - ITFT.</p>
           </a>
@@ -108,11 +107,11 @@
       <div class="box" data-aos="flip-up" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-eye"></i></a>
+          <a href="#"><i class="fas fa-eye"></i></a>
         </div>
 
         <div class="text textas">
-          <a href="">
+          <a href="#">
             <h3>Forecasting Model</h3>
             <p>Feel the future in minutes with our SPARK - ITFT. </p>
           </a>
@@ -123,11 +122,11 @@
       <div class="box" data-aos="flip-right" data-aos-delay="200">
 
         <div class="icon">
-          <a href=""><i class="fas fa-link"></i></a>
+          <a href="#"><i class="fas fa-link"></i></a>
         </div>
 
         <div class="text textas">
-          <a href="">
+          <a href="#">
             <h3>Technology</h3>
             <p>SPARK - ITFT uses a variety of popular time series forecastiong techniques.</p>
           </a>
@@ -155,9 +154,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <video width="100%" height="100%"
-              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
-              controls>
+            <video width="100%" height="100%" poster="assets/img/video-thumb.png" controls>
               <source src="assets/videos/video.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -185,7 +182,7 @@
     </section>
     <!-- End About Section -->
 
-    <section id="about" class="about">
+    <section class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>About</h2>
@@ -194,9 +191,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-left" data-aos-delay="100">
-            <video width="100%" height="100%"
-              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
-              controls>
+            <video width="100%" height="100%" poster="assets/img/video-thumb.png" controls>
               <source src="./assets/videos/Marketing.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -222,7 +217,7 @@
     <!-- ======= Motivation Section ======= -->
     <link rel="stylesheet" href="./assets/css/about.css">
     <script src="./assets/js/about.js"></script>
-    <section id="about motivation" class="about">
+    <section id="motivation" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Motivation</h2>
@@ -231,9 +226,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <video width="100%" height="100%"
-              poster="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTg6GabQ3NvPHzZbjRtbIhdnVJqXLgkKULJKw&usqp=CAU"
-              controls>
+            <video width="100%" height="90%" poster="assets/img/video-thumb.png" controls>
               <source src="assets/videos/impacts.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -395,9 +388,9 @@
             Our company works in the implementation of advanced technologies such
             as ML/AI in the field of Civil Engineering. After doing some research we came to know that
             for 50% of road projects, the difference between actual & forecasted traffic is more than
-            ±20%; for 25% of road projects, the difference is larger than ±40% ( <a
+            ±20%; for 25% of road projects, the difference is larger than ±40% (<a
               href="https://www.researchgate.net/publication/228640448_Inaccuracy_in_Traffic_Forecasts"
-              target="_blank">ResearchGate</a>,2006). The
+              target="_blank">ResearchGate, 2006</a>). The
             reason behind this scenario is that we’re still stuck with the traditional & old ways of
             analyzing & forecasting traffic.
           </p>
@@ -425,7 +418,7 @@
   <!-- End #main -->
 
 
-  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -439,7 +432,7 @@
                 Kharagpur 721302,<br>
                 West Bengal, India<br><br>
                 <strong>Phone:</strong> +91 756 891 6622<br>
-                <strong>Email:</strong> teamspark503@gmail.com<br>
+                <strong>Email:</strong> <a href="mailto:teamspark503@gmail.com">teamspark503@gmail.com</a><br>
               </p>
             </div>
           </div>
@@ -465,7 +458,7 @@
             <h4>Inquiries</h4>
             <p>For any inquiries, questions or commendations, click here and please fill out the following form</p>
             <!-- <div class="text-center" style=";"><a href=""><button type="submit">Click here</button></a></div> -->
-            <a href="../#txt" class="aaaa"><button>Click Here</button></a>
+            <a href="../index.html#txt" class="aaaa"><button>Click Here</button></a>
 
           </div>
 
@@ -486,10 +479,9 @@
 
 
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
 
-  <div id="preloader"></div>
 
 
   <!-- Vendor JS Files -->
