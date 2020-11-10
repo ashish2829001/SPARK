@@ -106,5 +106,36 @@
   }
   
   /* end STYLE 5 */
+
+  #know_more {
+    background: url("./project/assets/img/about-bg.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+  }
+  
+  #know_more::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+  }
+  
+  #know_more .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  #know_more .about-col {
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+  }
+  
   
  
