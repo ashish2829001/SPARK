@@ -1388,11 +1388,13 @@ section {
   font-size: 1.3rem;
   color: cornflowerblue;
   font-weight: bold;
+  text-align: center;
 }
 
 .xyzz{
   font-size: 1.2rem;
   color: rgb(97, 81, 51);
+  text-align: center;
   /* font-weight: bold; */
 }
 .xyy{
@@ -1401,5 +1403,6 @@ section {
   font-size: 1.1rem;
   font-weight: bold;
   background-color: #ffc451;
+  text-align: center;
 }
 
